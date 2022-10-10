@@ -53,7 +53,8 @@ body{
     padding-right: 583px;
 }
 .container {
-    background-color:rgb(189, 239, 138);
+    background: rgb(187,255,214);
+background: linear-gradient(90deg, rgba(187,255,214,1) 0%, rgba(64,209,163,1) 30%, rgba(41,223,172,1) 67%, rgba(187,255,214,1) 100%);
     color: rgb(9, 42, 62);
     border-radius: 15px;
     line-height: 26px;
