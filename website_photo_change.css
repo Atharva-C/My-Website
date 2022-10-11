@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar li{
+    display:inline-block;
+    list-style: none;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    display:block;
+    color:  rgb(9, 42, 62);
+    padding: 8px 24px 8px 24px;
+}
+#navbar ul li a:hover {
+    color: rgb(189, 239, 138);
+    background-color: rgb(9, 42, 62);
+    border-radius: 10px;
+}
+#navbar::before{
+    content:"";
+    border-radius: 15px;
+    position:absolute;
+    z-index: -1;
+}
+
+#navbar .name{
+    text-align: right;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(9, 42, 62);
+    padding: 1px 97px 1px 0px;
+}
+
+#photo img{
+    display:inline-block;
+    align-items: center;
+    padding: 126px 530px;
+    border-radius: 0%;
+    height: 500px;
+    width: 500px;
+}
+.container h4{
+    text-align: center;
+    font-size: 60px;
+    padding-left: 545px;
+    padding-right: 583px;
+}
+.container {
+    background-color:rgb(189, 239, 138);
+    color: rgb(9, 42, 62);
+    border-radius: 15px;
+    line-height: 26px;
+    padding-top:2px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+.container div{
+    text-align: center;
+    font-size: 22px;
+}
+
+.container a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 93px 8px 82px;
+    color: rgb(9, 42, 62);
+}
+.contact a{
+    font-weight: bold;
+}
+.contact :hover{
+    color: rgb(189, 239, 138);
+    background-color: rgb(9, 42, 62);
+    border-radius: 10px;
+}
+#mobile{
+    display: block;
+    float: right;
+    padding: 0px 224px 0px 0px;
+}
